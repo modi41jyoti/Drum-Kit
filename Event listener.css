@@ -1,0 +1,52 @@
+body {
+			background-image: url("concert-crowd.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+		.key{
+			width: 100px;
+			height: 100px;
+			/*margin-left: 30px;*/
+		}
+		kbd {
+			color: white;
+			font-size: 40px;
+			display: block;
+		}
+		.keys {
+			display: flex;
+			flex: 1;
+			min-height: 100vh;
+			align-items: center;
+			justify-content: center;
+		}
+		.key {
+
+			border: 5px solid black;
+			color: yellow;
+			font-size: 20px;
+			margin: 25px;
+			padding: 40px 25px;
+			line-height: 30px;
+			background-color: rgba(0, 0, 0, 0.4);
+			transition: all 0.07s;
+			text-align: center;
+			text-shadow: 0 0 .5rem black;
+			width: 10rem;
+			border-radius: 2px;
+
+		}
+		.playing {
+			transform: scale(1.1);
+			border-color: red;
+			box-shadow: 0 0 10px red;
+			
+		}
+		.sound {
+		  font-size: 1.2rem;
+		  letter-spacing: .9px;
+		  color: #ffc600;
+		}
+
+
